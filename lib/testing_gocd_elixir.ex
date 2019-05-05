@@ -1,8 +1,4 @@
 defmodule TestingGocdElixir do
-  @moduledoc """
-  Documentation for TestingGocdElixir.
-  """
-
   @doc """
   Hello world.
 
