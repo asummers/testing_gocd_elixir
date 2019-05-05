@@ -1,0 +1,8 @@
+FROM elixir:1.8.1
+
+RUN mix local.hex --force
+
+COPY . .
+
+RUN mix deps.get
+RUN mix deps.compile
